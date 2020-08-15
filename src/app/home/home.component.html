@@ -1,0 +1,34 @@
+<div style="width:100%;height:100vh;background-color: black;">
+        <div style="opacity: 0.3">
+            <!-- The video -->
+            <video #video (canplay)="video.play()" (loadedmetadata)="video.muted = true" autoplay muted loop id="myVideo">
+              <source src="assets/images/no_putin.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="content-main">
+                    <!-- Header + Navbar -->
+            <header id="header">
+                <span style="font-size: 45px; padding: 12px 0  0 12px; cursor:pointer" (click)="openNav()">&#9776;</span>
+
+                <!-- Senior Survey Logo -->
+
+                <div id="sdnav" class="sidenav">
+                    <a href="" class="logo">SS</a>
+                    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+                    <a routerLink="index/content">Academics</a>
+                    <a href="">Career</a>
+                    <a href="">Lifestyle</a>
+                    <a href="">Personal</a>
+                    <a href="">Extracurriculars</a>
+                    <a href="">Opinions</a>
+                </div>
+
+            </header>
+            <!-- some overlay text to describe the video -->
+            <div class="heading-main">
+              <p style="font-size: 64px;">The Senior Survey</p>
+              <p>Class of 2020</p>
+            </div>
+        </div>
+    </div>
