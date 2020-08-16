@@ -10,16 +10,19 @@ import {
   keyframes
 } from '@angular/animations';
 
-export const slideInAnimation =
-  trigger('routeAnimations', [
-    transition('*<=>*', [
-      query(':leave',animate('1s ease-out',keyframes([
-        style({opacity:"1",offset:0.0}),
-        style({opacity:"0",offset:1.0}),
-      ]))),
-      query(':enter',animate('1s 1s ease-in',keyframes([
-        style({opacity:"0",offset:0.0}),
-        style({opacity:"1",offset:1.0}),
-      ]))),
-    ])
-  ]);
+export const slideInAnimation =(
+    trigger('routeAnimations', [
+     transition('contentpage<=>careerpage',[style({transform:'translateY(500px)',opacity:'0'}),animate('0.5s ease')]),   //works!!
+
+     //  transition('careerpage=>contentpage,rulesIdPage=>basicPage',[
+     //    style({transform:'translateX(-500px)',opacity:'0'}),
+     //    animate('0.25s  ease-out')
+     // ])
+  ])
+);
+
+export const fadeIn = (
+  trigger('mainRouteAnimations',[
+    transition('homepage<=>indexpage',[style({opacity:'0.4'}),animate('0.25s ease-in')]),   //works!!
+  ])
+)

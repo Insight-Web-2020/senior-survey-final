@@ -8,7 +8,8 @@ import { Component, OnInit,ViewEncapsulation } from '@angular/core';
   	'./navbar-fixed-left.min.css',
   	'../content/bootstrap-lx.min.css',
   	'../content/contentstyles.css',
-  	'../content/docs.css'
+  	'../content/docs.css',
+    './toggle.css'
   ],
   encapsulation: ViewEncapsulation.None, 
 })

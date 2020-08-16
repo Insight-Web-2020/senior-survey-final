@@ -3,14 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import {IndexComponent} from './index/index.component';
 import {HomeComponent} from './home/home.component';
 import {ContentComponent} from './content/content.component';
-
+import {CareerComponent} from './career/career.component';
 
 const routes: Routes = [
 	{path:'',component:HomeComponent,data:{animation:'homepage'}},
 	{
 		path:'index',component:IndexComponent,data:{animation:'indexpage'},
 		children:[
-			{path:'content',component:ContentComponent,data:{animation:'contentpage'}}
+			{path:'content',component:ContentComponent,data:{animation:'contentpage'}},
+			{path:'career',component:CareerComponent,data:{animation:'careerpage'}}
 		]
 	},
 ];

@@ -8,6 +8,7 @@ import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     IndexComponent,
     ContentComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
