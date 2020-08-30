@@ -14,4 +14,9 @@ export class AcademicsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navigateWithin(id){
+  	var el = document.getElementById(id);
+  	el.scrollIntoView();
+  }
+
 }

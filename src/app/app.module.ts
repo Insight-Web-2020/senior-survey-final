@@ -14,6 +14,8 @@ import { PersonalComponent } from './personal/personal.component';
 import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
 import { OpinionsComponent } from './opinions/opinions.component';
 
+import { NgxUiLoaderModule } from 'ngx-ui-loader';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import { OpinionsComponent } from './opinions/opinions.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgxUiLoaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
