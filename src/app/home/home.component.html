@@ -7,27 +7,13 @@
         </div>
 
         <div class="content-main">
-                    <!-- Header + Navbar -->
-            <header id="header">
-                <span style="font-size: 45px; padding: 12px 0  0 12px; cursor:pointer" (click)="openNav()">&#9776;</span>
-
-                <!-- Senior Survey Logo -->
-
-                <div id="sdnav" class="sidenav">
-                    <a href="" class="logo">SS</a>
-                    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
-                    <a routerLink="index/content">Academics</a>
-                    <a href="">Career</a>
-                    <a href="">Lifestyle</a>
-                    <a href="">Personal</a>
-                    <a href="">Extracurriculars</a>
-                    <a href="">Opinions</a>
-                </div>
-
-            </header>
             <!-- some overlay text to describe the video -->
             <div class="heading-main" style="height: 100vh;text-align: center;">
-              <p style="font-size: 64px;">The Senior Survey</p>
+              <div class="heading mb-4" style="font-family: 'Ubuntu', sans-serif;">
+                <h4>Insight, IIT Bombay</h4>
+                <p style="font-size: 64px;">The Senior Survey</p>
+                <h5>Class of 2020</h5>
+              </div>
               <div style="display: flex;justify-content: space-between;">
                   <button (click)="goTo('index/academics')" class="btn mr-3 main-page-button">Academics</button>
                   <button (click)="goTo('index/career')" class="btn mr-3 main-page-button">Career</button>
@@ -35,7 +21,7 @@
               </div>
               <div style="display: flex;justify-content: space-between; margin-top:14px">
                   <button (click)="goTo('index/personal')" class="btn mr-3 main-page-button">Personal</button>
-                  <button (click)="goTo('index/extracurricular')" class="btn mr-3 main-page-button">Extracurriculars</button>
+                  <button (click)="goTo('index/extracurriculars')" class="btn mr-3 main-page-button">Extracurriculars</button>
                   <button (click)="goTo('index/opinions')" class="btn mr-3 main-page-button">Miscellaneous</button>
               </div>
             </div>

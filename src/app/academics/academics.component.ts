@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-academics',
   templateUrl: './academics.component.html',
   styleUrls: ['./academics.component.scss',
-  './contentstyles.css'
+  './contentstyles.css',
   ]
 })
 export class AcademicsComponent implements OnInit {

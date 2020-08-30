@@ -6,9 +6,9 @@ import { Component, OnInit,ViewEncapsulation } from '@angular/core';
   styleUrls: [
   	'./navbar.component.scss',
   	'./navbar-fixed-left.min.css',
-  	'../content/bootstrap-lx.min.css',
-  	'../content/contentstyles.css',
-  	'../content/docs.css',
+  	'./bootstrap-lx.min.css',
+  	'./contentstyles.css',
+  	'./docs.css',
     './toggle.css'
   ],
   encapsulation: ViewEncapsulation.None, 
