@@ -19,7 +19,7 @@ const routes: Routes = [
 			{path:'academics',component:AcademicsComponent,data:{animation:'academicspage'}},
 			{path:'lifestyle',component:LifestyleComponent,data:{animation:'lifestylepage'}},
 			{path:'personal',component:PersonalComponent,data:{animation:'personalpage'}},
-			{path:'extracurricular',component:ExtracurricularsComponent,data:{animation:'extracurricularpage'}},
+			{path:'extracurriculars',component:ExtracurricularsComponent,data:{animation:'extracurricularspage'}},
 			{path:'opinions',component:OpinionsComponent,data:{animation:'opinionspage'}},
 		]
 	},
