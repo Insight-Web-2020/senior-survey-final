@@ -9,6 +9,11 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CareerComponent } from './career/career.component';
+import { AcademicsComponent } from './academics/academics.component';
+import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { PersonalComponent } from './personal/personal.component';
+import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.component';
+import { OpinionsComponent } from './opinions/opinions.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { CareerComponent } from './career/career.component';
     ContentComponent,
     HomeComponent,
     NavbarComponent,
-    CareerComponent
+    CareerComponent,
+    AcademicsComponent,
+    LifestyleComponent,
+    PersonalComponent,
+    ExtracurricularsComponent,
+    OpinionsComponent
   ],
   imports: [
     BrowserModule,
