@@ -14,15 +14,26 @@
                 <p style="font-size: 64px;">The Senior Survey</p>
                 <h5>Class of 2020</h5>
               </div>
-              <div style="display: flex;justify-content: space-between;">
+              <div class="main-nav">
                   <button (click)="goTo('index/academics')" class="btn mr-3 main-page-button">Academics</button>
                   <button (click)="goTo('index/career')" class="btn mr-3 main-page-button">Career</button>
                   <button (click)="goTo('index/lifestyle')" class="btn mr-3 main-page-button">Lifestyle</button>
               </div>
-              <div style="display: flex;justify-content: space-between; margin-top:14px">
+              <div style="margin-top:14px" class="main-nav">
                   <button (click)="goTo('index/personal')" class="btn mr-3 main-page-button">Personal</button>
                   <button (click)="goTo('index/extracurriculars')" class="btn mr-3 main-page-button">Extracurriculars</button>
                   <button (click)="goTo('index/opinions')" class="btn mr-3 main-page-button">Miscellaneous</button>
+              </div>
+
+              <div class="mobile-nav">
+                <div style="display: flex; justify-content: center;">
+                    <button (click)="goTo('index/academics')" class="btn mr-3 main-page-button">Academics</button>
+                    <button (click)="goTo('index/career')" class="btn mr-3 main-page-button">Career</button>
+                </div>
+                    <button (click)="goTo('index/lifestyle')" class="btn mr-3 main-page-button">Lifestyle</button>
+                    <button (click)="goTo('index/personal')" class="btn mr-3 main-page-button">Personal</button>
+                    <button (click)="goTo('index/extracurriculars')" class="btn mr-3 main-page-button">Extracurriculars</button>
+                    <button (click)="goTo('index/opinions')" class="btn mr-3 main-page-button">Miscellaneous</button>
               </div>
             </div>
         </div>

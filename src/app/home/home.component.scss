@@ -102,3 +102,29 @@ button.main-page-button:hover{
   border-color: white !important;
   transition: 0.25s ease-in-out !important;
 }
+
+
+.mobile-nav{
+  display: none;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px){
+  .mobile-nav{
+   text-align: center;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+  }
+  .mobile-nav button{
+    margin-bottom: 12px;
+  }
+
+  .main-nav{
+    display: none;
+  }
+}
