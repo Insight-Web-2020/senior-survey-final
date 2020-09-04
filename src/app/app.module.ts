@@ -15,6 +15,7 @@ import { ExtracurricularsComponent } from './extracurriculars/extracurriculars.c
 import { OpinionsComponent } from './opinions/opinions.component';
 
 import { NgxUiLoaderModule } from 'ngx-ui-loader';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NgxUiLoaderModule } from 'ngx-ui-loader';
     LifestyleComponent,
     PersonalComponent,
     ExtracurricularsComponent,
-    OpinionsComponent
+    OpinionsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
