@@ -113,6 +113,15 @@ button.main-page-button:hover{
   justify-content: space-between;
 }
 
+.heading p{
+  font-size: 64px;
+}
+
+.mobile{
+  display: none;
+}
+
+
 @media screen and (max-width: 700px){
   .mobile-nav{
    text-align: center;
@@ -122,9 +131,26 @@ button.main-page-button:hover{
   }
   .mobile-nav button{
     margin-bottom: 12px;
+    font-size: 14px;
   }
 
   .main-nav{
+    display: none;
+  }
+  body{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .heading p{
+    font-size: 44px;
+  }
+
+  .mobile{
+    display: initial;
+  }
+
+  .desktop{
     display: none;
   }
 }
