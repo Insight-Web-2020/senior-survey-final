@@ -11,5 +11,9 @@ export class OpinionsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navigateWithin(id){
+  	var el = document.getElementById(id);
+  	el.scrollIntoView();
+  }
 
 }

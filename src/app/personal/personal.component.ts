@@ -12,4 +12,9 @@ export class PersonalComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navigateWithin(id){
+  	var el = document.getElementById(id);
+  	el.scrollIntoView();
+  }
+
 }
