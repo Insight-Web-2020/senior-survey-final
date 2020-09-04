@@ -1,8 +1,16 @@
+body {
+  min-height: 200vh;
+}
+
+a {
+  cursor: pointer;
+}
 /* Buttons and logos */
 
 .btn-style {
   background-color: #111;
-  color: #818181;
+  color: white;
+  margin: 4pt;
 } 
 
 .logo-style {
@@ -11,6 +19,25 @@
   font-size: 80px;
   transition: 0.3s;
   margin: 0 auto 0 auto;
+}
+
+
+/*paragraph spacing modifications*/
+
+h3{
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h4{
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+p {
+  margin-top: 6px;
+  margin-bottom: 12px;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
@@ -30,6 +57,46 @@ div.data-img{
   align-items: center;
   vertical-align: middle;
 }
+
+div.data-text{
+  padding: 8px;
+  height: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Bottom Designing */
+.bottom img {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+}
+.mainlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.bot1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+#pp{
+  text-align: center;
+  }
+
+#bottom{
+  width:35vw;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.bottom{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
 
 /* On screens that are less than 768px wide, shift the content back to the left
 and adjust the navbar */

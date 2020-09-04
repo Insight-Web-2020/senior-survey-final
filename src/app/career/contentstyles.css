@@ -20,13 +20,7 @@ a {
   transition: 0.3s;
   margin: 0 auto 0 auto;
 }
-#buttons{
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: aquamarine;
-} 
+
 
 /*paragraph spacing modifications*/
 
