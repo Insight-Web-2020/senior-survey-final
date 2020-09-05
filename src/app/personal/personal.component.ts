@@ -10,6 +10,7 @@ export class PersonalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.documentElement.scrollTop = 0;
   }
 
   navigateWithin(id){

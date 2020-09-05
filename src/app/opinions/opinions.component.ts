@@ -10,6 +10,7 @@ export class OpinionsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.documentElement.scrollTop = 0;
   }
   navigateWithin(id){
   	var el = document.getElementById(id);
