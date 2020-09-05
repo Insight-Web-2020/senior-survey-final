@@ -1,4 +1,5 @@
 import { Component, OnInit,ViewEncapsulation } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -15,7 +16,7 @@ import { Component, OnInit,ViewEncapsulation } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   loadAPI: Promise<any>;
-  constructor() { 
+  constructor(private router:Router) { 
   		this.loadAPI = new Promise((resolve) => {
 	        this.loadScript();
 	        resolve(true);
@@ -51,6 +52,12 @@ export class NavbarComponent implements OnInit {
 
 reloadTo(link){
   window.location=link;
+}
+
+goTo(link){
+  var el = document.getElementsByClassName('navbar-toggler')[0];
+  el.click();
+  this.router.navigate(['index/'+link]);
 }
 
 }

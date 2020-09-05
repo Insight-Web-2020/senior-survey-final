@@ -17,7 +17,7 @@ export class IndexComponent implements OnInit {
   }
 
   openNav() {
-		console.log("clicked");
+		// console.log("clicked");
 	    document.getElementById("sdnav").style.width = "250px";
 	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
   }
@@ -28,7 +28,7 @@ export class IndexComponent implements OnInit {
   }
 
   prepareRoute(outlet) {
-      console.log(outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation);
+      // console.log(outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation);
       return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 
