@@ -55,8 +55,11 @@ reloadTo(link){
 }
 
 goTo(link){
-  var el:any = document.getElementsByClassName('navbar-toggler')[0];
-  el.click();
+  if(window.innerWidth<768){
+     var el:any = document.getElementsByClassName('navbar-toggler')[0];
+     el.click();
+  }
+ 
   this.router.navigate(['index/'+link]);
 }
 

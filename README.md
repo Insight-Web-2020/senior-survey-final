@@ -1,5 +1,7 @@
 # SeniorSurvey
 
+**Important** Compiled using the following command ` ng build --prod --base-href /seniorsurvey2020/` <br>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
