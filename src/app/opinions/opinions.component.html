@@ -2,7 +2,7 @@
 
     <div class="content">
 
-        <a name="top"></a>
+        <a id="top"></a>
 
         <!-- Heading section -->
 
@@ -201,7 +201,9 @@
         </div>
 
         <div style="text-align: center;">
-            <a href="#top"> <button type="button" class="btn btn-style">Back to Top</button> </a> <br><br>
+            <a (click)="ns.goTo('index/extracurriculars')"> <button type="button" class="btn btn-style">&larr; Extracurriculars</button> </a> 
+            <a (click)="navigateWithin('top')"> <button type="button" class="btn btn-style">Back to Top</button> </a> 
+            <br><br>
         </div>
         
         <app-footer></app-footer>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {NavigationService} from '../navigation.service';
 @Component({
   selector: 'app-personal',
   templateUrl: './personal.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalComponent implements OnInit {
 
-  constructor() { }
+  constructor(public ns: NavigationService) { }
 
   ngOnInit(): void {
     document.documentElement.scrollTop = 0;

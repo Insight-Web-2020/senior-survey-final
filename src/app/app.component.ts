@@ -26,4 +26,5 @@ export class AppComponent implements OnInit{
       // console.log(outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation);
       return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
+
 }
