@@ -1,0 +1,33 @@
+/* Buttons and logos */
+
+.btn-style {
+  background-color: #1a1a1a;
+  color: #818181;
+} 
+
+.logo-style {
+    font-family: Eczar;
+    font-size: 80px;
+    transition: 0.3s;
+    padding: 6px;
+    align-items: center;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 232px;
+  margin-right: 4px;
+  padding: 16px 16px;
+  height: 1000px;
+  margin-bottom: 8px;
+}
+
+/* On screens that are less than 768px wide, shift the content back to the left
+and adjust the navbar */
+
+@media screen and (max-width: 768px) {
+  div.content {margin-left: 0;}
+  div.content {margin-top: 8px;}
+  .logo-style {font-size: 28px; padding: 2px;}
+}
